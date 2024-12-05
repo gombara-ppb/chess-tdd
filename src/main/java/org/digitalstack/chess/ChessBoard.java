@@ -11,6 +11,8 @@ public class ChessBoard {
         pieces = new Pawn[BOARD_WIDTH][BOARD_HEIGHT];
     }
 
+
+
     public void add(Pawn pawn, int xCoordinate, int yCoordinate, PieceColor pieceColor) {
         throw new UnsupportedOperationException("Need to implement ChessBoard.add()");
     }
